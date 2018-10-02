@@ -1,0 +1,939 @@
+/*
+==================
+author info
+------------
+name: muhammad imran;
+email: muhammadimu19@gmail.com;
+
+=============
+*/
+/*
+==================
+index
+-------
+
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+
+=================
+*/
+
+
+
+
+
+/*
+======================
+global css
+===============
+*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i');
+body{
+
+    /*font-family: 'Josefin Sans', sans-serif;*/
+    font-family: 'Lato', sans-serif;
+}
+
+h2{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+=================
+navbar css
+==================
+*/
+
+.bg-light {
+    background-color: #30303042!important;
+}
+
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top {
+    padding-left: 10%;
+}
+
+
+.navbar-light .navbar-nav .nav-link:focus,
+ .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(237, 20, 91);
+}
+
+
+
+.navbar-light .navbar-nav .nav-link{
+        padding-right: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+ul.navbar-nav.ml-auto {
+    padding-right: 10%;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+ .navbar-light .navbar-nav .nav-link.active, 
+ .navbar-light .navbar-nav .nav-link.show,
+  .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(237, 20, 91);
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(237, 20, 91);
+    border-color: rgb(237, 20, 91);
+}
+
+
+/*
+=======================
+home/banner section css
+========================
+
+*/
+
+#Home{
+
+    background: url(../img/bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+ 
+}
+
+
+.home-heading{
+
+    padding-top: 15%;
+    padding-bottom: 2%;
+
+}
+
+
+.home-heading h2{
+    color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 30px;
+
+
+
+}
+
+
+.home-heading h2 span{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.line {
+    border-bottom: 2px solid #ed145b;
+    width: 15%;
+    display: block;
+    margin: 0 auto;
+}
+
+.home-des h6{
+    color: #fff;
+    font-weight: lighter;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.home-btn .btn{
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #ed145b;
+    font-size: 15px;
+    color: #fff;
+}
+
+.home-btn {
+    padding-bottom: 10%;
+}
+
+.btn.focus, .btn:focus {
+ 
+    box-shadow: none;
+}
+
+
+
+.rectangle .img-fluid{
+
+
+    height: 50px;;
+}
+
+
+
+
+/*
+=====================
+about service css
+=====================
+*/
+
+
+.About{
+padding-bottom: 20%;
+
+}
+
+.about h3{
+    font-size: 20px;
+    color: #5a5a5a;
+    font-style: italic;
+    font-weight: 300;
+    padding-top: 35%;
+ 
+    
+}
+
+section#About-Us {
+    background-color: #f4f4f4;
+    height: 415px;
+}
+.about-img {
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+
+.line-2{
+    border-bottom: 2px solid #ed145b;
+    width: 20%;
+
+}
+
+.about-des h6{
+    padding-top: 2%;
+       color: #5a5a5a;
+     font-size: 15px;
+    font-weight: 300;
+}
+
+.about-icon p{
+
+    font-style: normal;
+
+}
+
+.about-icon p a{
+    text-decoration: none;
+     color: #ed145b;
+}
+
+
+/*
+======================
+
+services section css
+=========================
+
+*/
+#Services{
+   padding-top: 10%;
+   padding-bottom: 5%;
+}
+
+.service-heading h3{
+
+    font-style: italic;
+    font-weight: lighter;
+
+}
+
+.line-3{
+    border-bottom: 2px solid #ed145b;
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.service-des h6{
+
+    padding-top: 2%;
+       color: #5a5a5a;
+     font-size: 15px;
+    font-weight: 300;
+
+}
+
+.icon-des p{
+    color: #ed145b;
+}
+
+
+.icon-box{
+text-align: center;
+padding-top: 20%;
+
+}
+
+
+/*
+==================
+slider section
+=====================
+*/
+
+.slider{
+
+    background: url(../img/bg3.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.slider-text p{
+    color: #fff;
+    font-size: 18px;
+      font-weight: 300;
+
+}
+
+
+
+
+
+ 
+.slider-text.text-center {
+ 
+    padding: 0 10% ;
+}
+
+
+.slide-icon {
+
+    color: #ed145b;
+    padding-top: 5%;
+}
+
+.slide-icon2 {
+
+    color: #ed145b;
+    padding-bottom: 5%;
+}
+
+/*
+===============
+price section
+================
+
+*/
+
+
+.price{
+
+    background-color: #f7f7f7;
+    padding-bottom: 10%;
+}
+.price-head h3{
+    padding-top: 8%;
+    font-style: italic;
+    font-weight: lighter;
+
+}
+
+.line-4{
+    border-bottom: 2px solid #ed145b;
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.price-des h6{
+
+    padding-top: 2%;
+       color: #5a5a5a;
+     font-size: 15px;
+    font-weight: 300;
+
+}
+
+
+.box-head{
+    background-color: #5a5a5a;
+    padding: 25px;
+    position: relative;
+    transition: all ease 1.5s;
+}
+
+
+.box-head:hover{
+transition: all ease 1.5s;
+background-color: #ed145b;
+color: #fff;
+  
+
+}
+
+.box-des{
+
+    background-color: #fff;
+    padding: 30px;
+}
+
+.box-btn .btn{
+
+    background-color: #ed145b;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #fff;
+    font-size: 15px;
+}
+
+
+.box-head-btn .btn{
+    position: absolute;
+    top: 34%;
+    left: 28%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    font-size: 15px;
+
+}
+
+.price-box{
+
+    padding-top: 20%;
+}
+
+
+
+
+/*
+=======================
+news section css
+====================
+*/
+
+
+
+
+
+.News{
+
+	background: url(../img/32.jpg) no-repeat;
+	background-size: cover;
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 5%;
+	
+}
+
+.overlay{
+
+    background: rgb(18, 20, 32, 0.9);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+
+
+
+
+
+.feature-box {
+	margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.feature-icon{
+	float: left;
+    padding: 2px;
+}
+
+.feature-icon i{
+	font-size: 24px;
+	color: #f9613c;
+}
+
+.feature-content{
+	padding-left: 22%; 
+}
+.feature-content h4{
+     font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #ed145b;
+}
+
+.feature-content p{
+	font-size: 13px;
+	color: #888;
+	line-height: 24px;
+}
+
+/*
+========================
+our team member
+==========================
+
+*/
+
+.community{
+
+    background-color: #ed145b;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+
+.community-head span{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.community-head h4{
+    text-align: right;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.community-btn .btn{
+
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+    font-size: 15px;
+
+}
+
+
+
+
+/*
+=====================
+update css
+====================
+*/
+
+.update{
+    padding-bottom: 5%;
+}
+
+.update-head h3{
+
+    padding-top: 8%;
+    font-style: italic;
+    font-weight: lighter;
+
+}
+
+.line-6{
+    border-bottom: 2px solid #ed145b;
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+
+
+}
+
+.update-des h6{
+
+    padding-top: 2%;
+       color: #5a5a5a;
+     font-size: 15px;
+    font-weight: 300;
+
+}
+
+.update-text{
+    padding-top: 3%;
+    background-color: #f7f7f7;
+    padding: 20px
+}
+
+.update-img-box {
+
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+.update-text p{
+    margin: 0;
+     padding-top: 2%;
+     padding-bottom: 2%;
+}
+
+.down-arrow{
+    display: block;
+    margin: 0 auto;
+    padding-top: 5%;
+    color: #ed145b;
+}
+
+.down-arrow a{
+    text-decoration: none;
+    color: #ed145b;
+   
+
+}
+
+i.fa.fa-angle-down.fa-1x {
+
+ display: block; 
+ text-align: center; 
+
+}
+ 
+.update-img{
+    position: relative;
+} 
+
+.overlay3{
+    position: absolute;
+    background-color: #ed145b;
+    width: 0;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transition: all ease 1.5s;
+    overflow: hidden;
+  
+}
+
+
+.update-img:hover .overlay3{
+
+transition: all ease 1.5s;
+    width: 100%;
+
+}
+
+.overlay-icon{
+
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    color: #fff;
+}
+
+/*
+=========================
+info section css
+========================
+*/
+
+.info-head h3{
+
+    padding-top: 8%;
+    font-style: italic;
+    font-weight: lighter;
+    color: #fff;
+    padding-bottom: 2%;
+
+}
+
+.line-7{
+
+    border-bottom: 2px solid #ed145b;
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.info{
+
+    background: url(../img/images.png);
+    padding-bottom: 4%;
+}
+
+
+.info-text{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.info-text h6{
+ 
+       color: #fff;
+     font-size: 15px;
+    font-weight: 300;
+    padding: 0 21%;
+    text-align: center;
+
+}
+
+.info-btn .btn{
+        padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    background-color: #ed145b;
+
+}
+
+
+
+/*
+==========================
+footer section css
+=======================
+
+*/
+
+footer{
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+.line-9{
+    border-bottom: 2px solid #ed145b;
+    width: 15%;
+
+}
+
+.footer-img{
+    padding-top: 10%;
+}
+
+
+.footer-text{
+
+
+    padding-top: 18%;
+    padding-bottom: 3%;
+}
+
+.footer-text h5{
+
+
+    font-style: italic;
+    font-weight: lighter;
+
+}
+
+
+.footer-des h6{
+
+    padding-top: 5%;
+    color: #5a5a5a;
+    font-size: 15px;
+    font-weight: 300;
+    padding-right: 15%;
+    padding-bottom: 5%;
+
+}
+
+
+.footer-btn .btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+     color: #fff;
+    background-color: #ed145b; 
+
+}
+
+.copyright{
+
+    background-color: #161616;
+}
+
+.copy-text{
+   padding-top: 5%;
+    color: #fff;
+}
+
+.copy-text p{
+
+    font-size: 12px;
+}
+
+
+.design-text{
+    padding-top: 5%;
+    color: #fff;
+}
+
+.design-text p{
+
+    font-size: 12px;
+}
+
+
+.design-text p span{
+
+    font-weight: bold;
+    color: #ed145b;
+
+}
+
+/*
+--------------
+media query 
+--------------
+
+*/
+
+
+@media (min-width: 0) and (max-width: 500px){
+
+section#About-Us {
+
+    margin-bottom: 65%;
+}
+   
+.service-heading h3 {
+    padding-top: 5%;
+}
+
+.community-head h4 {
+text-align: left; 
+
+    font-size: 19px;
+}
+
+.box-head-btn .btn {
+  
+    top: 36%;
+    left: 35%;
+}
+
+
+
+
+}
+
+
+@media (min-width: 501px) and (max-width:584px){
+
+ section#About-Us {
+
+    margin-bottom: 50%;
+} 
+
+.service-heading h3 {
+  padding-top: 20%;
+}
+
+.box-head-btn .btn {
+
+    top: 40%;
+    left: 38%;
+}
+
+.community-head h4 {
+
+    font-size: 20px;
+}
+
+
+}
+
+@media (min-width: 585px) and (max-width:767px){
+
+ section#About-Us {
+
+    margin-bottom: 50%;
+} 
+.service-heading h3 {
+    padding-top: 10%;
+}
+
+.box-head-btn .btn {
+
+    top: 40%;
+    left: 38%;
+}
+
+
+.community-head h4 {
+  text-align: left;
+    font-size: 20px;
+}
+
+}
+
+
+/*for dextop*/
+
+@media (min-width: 768px) and (max-width:991px){
+
+.service-heading h3 {
+   padding-top: 0;
+}
+
+.box-head-btn .btn {
+  
+    top: 25%;
+    left: 17%;
+}
+
+.box-btn {
+    display: block;
+    margin: 0 -13px;
+}
+
+
+.feature-content {
+    padding-left: 35%;
+}
+
+.community-head h4 {
+    
+    letter-spacing: 0px;
+    font-size: 20px;
+}
+
+
+}
+
+/*for large device*/
+
+@media (min-width: 992px) and (max-width:1199px){
+
+.box-head-btn .btn {
+   
+    top: 32%;
+    left: 24%;
+
+}
+
+.community-head h4 {
+
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+}
